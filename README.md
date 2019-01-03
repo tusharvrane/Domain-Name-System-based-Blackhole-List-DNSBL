@@ -24,20 +24,18 @@ Tips -: If you need to check the ip on other DNSBL providers, below is the list 
 Algorithm -: 
 	Just inverse the IP address, like say your IP Address is 192.168.0.1 so before inserting or appending it to a url checking string, just inverse it like 1.0.168.192
 
-  Open your terminal and insert the following command 
+=> Open your terminal and insert the following command 
 
-		host 125.99.57.194.b.barracudacentral.org
+=> host 125.99.57.194.b.barracudacentral.org
 
-		O/p when ip address is found in spam list or block list -:  194.57.99.125.b.barracudacentral.org has address 127.0.0.2
+=> O/p when ip address is found in spam list or block list -:  194.57.99.125.b.barracudacentral.org has address 127.0.0.2
 
-		Note -: 127.0.0.2 can be any ip address based on where it found the address in its own database directory, so its better you just let it go.
+=> Note -: 127.0.0.2 can be any ip address based on where it found the address in its own database directory, so its better you just let it go.
 
-		O/p when ip address is not found in spam list or block list -:  Host 125.99.57.194.b.barracudacentral.org not found: 3(NXDOMAIN)
+=> O/p when ip address is not found in spam list or block list -:  Host 125.99.57.194.b.barracudacentral.org not found: 3(NXDOMAIN)
 
-	Similarly for others also follow the same process -:
-	  For eg -: host 194.57.99.125.dnsbl.sorbs.net
-
-
+=> Similarly for others also follow the same process -:
+=> For eg -: host 194.57.99.125.dnsbl.sorbs.net
 
 List of some DNSBL providers
 
