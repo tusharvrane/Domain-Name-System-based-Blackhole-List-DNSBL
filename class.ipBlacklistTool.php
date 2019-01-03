@@ -12,8 +12,17 @@ class ipBlacklistTool{
 	public $ip;
 	private $message;
 
+/**
+	@param array $ip_address
+*/
 	public function set_ip($ip_address)
 	{
+		if(!is_array($ip_address))
+		{
+			throw new Exception("Ip address should be an array element");
+			exit;
+		}
+
 		$this->ip = $ip_address;
 	}
 
