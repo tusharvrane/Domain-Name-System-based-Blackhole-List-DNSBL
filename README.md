@@ -11,7 +11,7 @@ Starting in September 2008, Barracuda Networks introduced the Barracuda Reputati
 
 Registration is simple and immediate. Please note that this service is provided free of charge, therefore Barracuda Networks reserves the right to refuse service to spammers, competitors and other parties at the company's discretion. This service is provided as is with no warranty of any kind.
 
-Just register at http://www.barracudacentral.org/account/register
+Just register for free at http://www.barracudacentral.org/account/register
 
 Your account will get activated within 10 minutes, specify the IP address from where you are going to request the checking process so that you won't get banned or rate limited. For time being the provided script will work as it also accepts limited number of requests from localhost i.e 1270.0.1.
 
